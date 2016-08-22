@@ -1,69 +1,182 @@
-#bodywrap {
-    z-index: 1;
-    width: 500px;
-    height: 1000px;
-    background-color: aqua
-}
+            #Heading {
+            z-index: 100px;
+            position: absolute;
+            top: 35px;
+            left: 175px;
+            font-family: Verdana, Geneva, sans-serif;
+	        font-size: 50px;
+	        font-style: normal;
+	        font-variant: normal;
+	        font-weight: 500;
+	        line-height: 26.4px;
+            }
 
-#ImagePlace1 {
-    z-index: 20
-   
-}
+            .center {
+            position: relative;
+            z-index: 100;
+            margin-top: 25px;
+            text-align: center;
+            }
+            
+            #centerbox {
+            position: absolute;
+            top: 200px;
+            left: 175px;
+            }
 
-IMG.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%
-}
+            #ImagePlace1 {
+            z-index: 20;
+            }
 
-#ButtonPlace {
-    z-index: 30;
-    position: absolute;
-    top: 220px;
-    left: 190px
-}
+            IMG.displayed {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: 100%
+            }
 
-#SocialPlace {
-    z-index: 30;
-    position: absolute;
-    top: 205px;
-    right: 100px
-}
+            .FaceImg {
+            //*
+            position: relative;
+            float: right;
+            *//
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+            width: 69px; 
+            height:69px; 
+            display: inline-block; 
+            background-image: url('http://i.imgur.com/EhP2032.jpg');
+            background-size: 65px
+            } 
+            
+            .FaceImg:hover { 
+                background-image: url('http://i.imgur.com/ZwOi6DD.jpg');
+            }
+            
+            .FaceImg:active {
+            border: 0px solid #bebebe;
+            background: black;
+            background: -webkit-gradient(linear, left top, left bottom, from(black), to(#707070));
+            background: -webkit-linear-gradient(top, black, black);
+            background: -moz-linear-gradient(top, black, black);
+            background: -ms-linear-gradient(top, black, black);
+            background: -o-linear-gradient(top, black, black);
+            background-image: -ms-linear-gradient(top, black 0%, black 100%);
+            color: #bebebe;
+            }
 
-.button {
-   border: 0px solid black;
-   background: black;
-   background: -webkit-gradient(linear, left top, left bottom, from(black), to(#black));
-   background: -webkit-linear-gradient(top, black, black);
-   background: -moz-linear-gradient(top, black, black);
-   background: -ms-linear-gradient(top, black, black);
-   background: -o-linear-gradient(top, black, black);
-   background-image: -ms-linear-gradient(top, black 0%, black 100%);
-   padding: 15px 25px;
-   -webkit-border-radius: 0px;
-   -moz-border-radius: 0px;
-   border-radius: 0px;
-   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
-   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
-   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
-   text-shadow: black 0 1px 0;
-   color: #fff;
-   font-size: 20px;
-   font-family: sans-serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-.button:active {
-   text-shadow: black 0 1px 0;
-   border: 0px solid black;
-   background: black;
-   background: -webkit-gradient(linear, left top, left bottom, from(black), to(#707070));
-   background: -webkit-linear-gradient(top, black, black);
-   background: -moz-linear-gradient(top, black, black);
-   background: -ms-linear-gradient(top, black, black);
-   background: -o-linear-gradient(top, black, black);
-   background-image: -ms-linear-gradient(top, black 0%, black 100%);
-   color: #bebebe;
-   }
+            .TubeImg {
+            //*
+            position: relative;
+            float: right;
+            *//
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+            width: 69px; 
+            height:69px; 
+            display: inline-block; 
+            background-image: url('http://i.imgur.com/GGSnxJh.png');
+            background-size: 65px
+            } 
+            
+            .TubeImg:hover { 
+                background-image: url('http://i.imgur.com/IICcIHU.png');
+            }
+            
+            .TubeImg:active {
+            border: 0px solid #bebebe;
+            background: black;
+            background: -webkit-gradient(linear, left top, left bottom, from(black), to(#707070));
+            background: -webkit-linear-gradient(top, black, black);
+            background: -moz-linear-gradient(top, black, black);
+            background: -ms-linear-gradient(top, black, black);
+            background: -o-linear-gradient(top, black, black);
+            background-image: -ms-linear-gradient(top, black 0%, black 100%);
+            color: #bebebe;
+            }
+
+            .TwitImg {
+            //*
+            position: relative;
+            float: right;
+            *//
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+            width: 69px; 
+            height:69px; 
+            display: inline-block; 
+            background-image: url('http://i.imgur.com/ZRoCgr6.png');
+            background-size: 65px
+            } 
+            
+            .TwitImg:hover { 
+                background-image: url('http://i.imgur.com/rmFSeGk.png');
+            }
+            
+            .TwitImg:active {
+            border: 0px solid #bebebe;
+            background: black;
+            background: -webkit-gradient(linear, left top, left bottom, from(black), to(#707070));
+            background: -webkit-linear-gradient(top, black, black);
+            background: -moz-linear-gradient(top, black, black);
+            background: -ms-linear-gradient(top, black, black);
+            background: -o-linear-gradient(top, black, black);
+            background-image: -ms-linear-gradient(top, black 0%, black 100%);
+            color: #bebebe;
+            }
+            
+            .button {
+            margin-bottom: 81px;
+            display: inline-block;
+            border: 0px solid black;
+            background: black;
+            background: -webkit-gradient(linear, left top, left bottom, from(black), to(#black));
+            background: -webkit-linear-gradient(top, black, black);
+            background: -moz-linear-gradient(top, black, black);
+            background: -ms-linear-gradient(top, black, black);
+            background: -o-linear-gradient(top, black, black);
+            background-image: -ms-linear-gradient(top, black 0%, black 100%);
+            padding: 20px 25px;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            border-radius: 0px;
+            -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+            -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+            box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+            text-shadow: black 0 1px 0;
+            color: #fff;
+            font-size: 25px;
+            font-family: sans-serif;
+            text-decoration: none;
+            vertical-align: middle;
+            }
+            
+            .button:hover {
+            text-shadow: black 0 1px 0;
+            border: 0px solid black;
+            background: black;
+            background: -webkit-gradient(linear, left top, left bottom, from(black), to(#707070));
+            background: -webkit-linear-gradient(top, black, black);
+            background: -moz-linear-gradient(top, black, black);
+            background: -ms-linear-gradient(top, black, black);
+            background: -o-linear-gradient(top, black, black);
+            background-image: -ms-linear-gradient(top, black 0%, black 100%);
+            color: #bebebe;
+            }
+            
+            .button:active {
+            text-shadow: black 0 1px 0;
+            border: 0px solid black;
+            background: black;
+            background: -webkit-gradient(linear, left top, left bottom, from(black), to(#707070));
+            background: -webkit-linear-gradient(top, black, black);
+            background: -moz-linear-gradient(top, black, black);
+            background: -ms-linear-gradient(top, black, black);
+            background: -o-linear-gradient(top, black, black);
+            background-image: -ms-linear-gradient(top, black 0%, black 100%);
+            color: #bebebe;
+            }    
