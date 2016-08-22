@@ -179,4 +179,21 @@
             background: -o-linear-gradient(top, black, black);
             background-image: -ms-linear-gradient(top, black 0%, black 100%);
             color: #bebebe;
-            }    
+            }
+            
+            #TextBackground {
+            z-index: 150px;
+            position: absolute;
+            top: 320px;
+            left: 175px;
+            height: 1000px;
+            width: 900px;
+            background-color: white;
+            color: black;
+            font-family: Times, serif;
+	    font-size: 25px;
+	    font-style: normal;
+	    font-variant: normal;
+	    font-weight: 500;
+	    line-height: 26.4px;
+            }
